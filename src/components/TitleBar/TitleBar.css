@@ -1,0 +1,22 @@
+.TitleBar {
+    
+}
+
+#titleBarDiv{
+    background-color: #0B0A0A;
+    padding-left: 1%;
+}
+
+#titleBarDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.titleBarButtonText{
+    color: white;
+}
+
+.titleBarButton:hover{
+    cursor: pointer;
+}

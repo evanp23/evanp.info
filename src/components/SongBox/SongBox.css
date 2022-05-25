@@ -1,0 +1,58 @@
+#songBoxDiv{
+    display: inline-flex;
+    flex-direction: row;
+    height: 64px;
+    padding: 10px;
+    margin: 5px;
+    gap: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+#currentSongBoxDiv{
+    display: inline-flex;
+    flex-direction: row;
+    height: 64px;
+    padding: 10px;
+    margin: 5px;
+    gap: 25px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+
+#nameAndArtistBox{
+    /* display: flex;
+    flex-direction: column;
+    flex-basis: auto;
+    background-color: red;
+    
+    width: fit-content; */
+
+
+}
+
+#nameH3{
+    margin: 0px;
+}
+
+#artistP{
+    margin: 0px;
+}
+
+#longBox{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#songImage{
+    border-radius: 100px;
+}
+
+#songImage:hover{
+    cursor: pointer;
+    box-shadow: -5px 5px 13px black;
+    transform: translateY(-3px);
+    transform: translateX(3px);
+}
